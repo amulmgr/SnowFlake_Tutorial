@@ -1,0 +1,32 @@
+Keygen and Config:
+* generate key
+
+   ssh-keygen -t rsa -b 4096 -C "dorababu.gadi@gmail.com"
+
+* go to  keys location
+  cd ~/.ssh
+* add key 
+  ssh-add git_id_rsa
+
+  if above does not work
+  execute below
+   
+  eval $(ssh-agent -s)
+
+*copy contesnts of file  "git_id_rsa.pub"
+
+* Go to git hub account and under seeting paste the key conetnts in ssh and GPG keys and add in ssh key & save with some name
+ when prompts add password
+
+
+
+********
+Adding reposiroty to github
+********
+* create alias for repository link "origin"
+  git add origin https://github.com/dorababutechie/Snowflake_Tutorial
+
+*Go to prpject directory and push the project to github
+
+  git push origin master
+
