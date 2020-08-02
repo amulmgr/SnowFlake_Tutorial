@@ -24,7 +24,7 @@ Keygen and Config:
 Adding reposiroty to github
 ********
 * create alias for repository link "origin"
-  git add origin https://github.com/dorababutechie/Snowflake_Tutorial
+  git remote add origin https://github.com/dorababutechie/Snowflake_Tutorial
 
 *Go to prpject directory and push the project to github
 
