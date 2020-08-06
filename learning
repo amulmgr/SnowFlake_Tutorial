@@ -1,6 +1,7 @@
 
 https://st84127.east-us-2.azure.snowflakecomputing.com/console/login
 snowsql -a st84127.east-us-2.azure -u db432
+Pass$432
 
 create or replace database sf_tuts;
 select current_database(), current_schema();
